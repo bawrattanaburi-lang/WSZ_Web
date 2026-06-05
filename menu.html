@@ -22,9 +22,7 @@
         }
         /* ดีไซน์กล่องเมนูแบบผิวทึบเนียน มีความโปร่งแสงเล็กน้อยเพื่อให้ดูมีมิติหรูหรา */
         .menu-card {
-            background: rgba(15, 23, 42, 0.75);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
+            background: rgba(15, 23, 42, 0.85);
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
     </style>
@@ -43,7 +41,7 @@
         </a>
     </header>
 
-    <main class="w-full max-w-4xl mx-auto px-5 py-12 flex-1 flex flex-col justify-center space-y-12 z-10">
+    <main class="w-full max-w-5xl mx-auto px-5 py-12 flex-1 flex flex-col justify-center space-y-12 z-10">
         
         <div class="text-center space-y-3">
             <span class="inline-flex items-center px-3 py-1 rounded-full bg-sky-500/10 border border-sky-400/20 text-sky-400 text-xs font-semibold tracking-wider uppercase">
@@ -57,41 +55,41 @@
             </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 w-full">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl mx-auto justify-center items-stretch">
             
-            <a href="mb_administer.html" class="menu-card group p-6 rounded-2xl hover:border-sky-500/40 hover:-translate-y-1 shadow-xl hover:shadow-sky-500/5 transition-all duration-300 flex flex-col justify-between items-start space-y-6 min-h-[160px]">
+            <a href="mb_administer.html" class="menu-card group p-6 rounded-2xl hover:border-sky-500/40 hover:-translate-y-1 shadow-xl hover:shadow-sky-500/5 transition-all duration-300 flex flex-col justify-between items-start space-y-6 min-h-[200px] w-full">
                 <div class="p-3 bg-sky-500/10 text-sky-400 rounded-xl group-hover:bg-sky-500 group-hover:text-slate-950 transition-all duration-300">
                     <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                     </svg>
                 </div>
                 <div>
-                    <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-sky-400 transition-colors">บริหาร</h3>
-                    <p class="text-xs text-slate-400 mt-1.5">ทำความรู้จักประธาน, รองประธาน, เหรัญญิก, เลขานุการ </p>
+                    <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-sky-400 transition-colors">คณะกรรมการบริหาร</h3>
+                    <p class="text-xs text-slate-400 mt-2 leading-relaxed">ทำความรู้จักประธาน, รองประธาน, เหรัญญิก, เลขานุการ แกนนำหลักในการดำเนินงานและบริหารจัดการนโยบายภาพรวม</p>
                 </div>
             </a>
 
-            <a href="mb_scc_s.html" class="menu-card group p-6 rounded-2xl hover:border-blue-500/40 hover:-translate-y-1 shadow-xl hover:shadow-blue-500/5 transition-all duration-300 flex flex-col justify-between items-start space-y-6 min-h-[160px]">
+            <a href="mb_scc_s.html" class="menu-card group p-6 rounded-2xl hover:border-blue-500/40 hover:-translate-y-1 shadow-xl hover:shadow-blue-500/5 transition-all duration-300 flex flex-col justify-between items-start space-y-6 min-h-[200px] w-full">
                 <div class="p-3 bg-blue-500/10 text-blue-400 rounded-xl group-hover:bg-blue-500 group-hover:text-slate-950 transition-all duration-300">
                     <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"></path>
                     </svg>
                 </div>
                 <div>
-                    <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-blue-400 transition-colors leading-tight">มัธยมศึกษาตอนปลาย</h3>
-                    <p class="text-xs text-slate-400 mt-1.5">คณะกรรมการสภานักเรียน ชั้นมัธยมศึกษาตอนปลาย</p>
+                    <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-blue-400 transition-colors leading-tight">คณะกรรมการสภานักเรียน ชั้นมัธยมศึกษาตอนปลาย</h3>
+                    <p class="text-xs text-slate-400 mt-2 leading-relaxed">ทำความรู้จักกับพี่ๆ คณะกรรมการสภานักเรียน ชั้นมัธยมศึกษาตอนปลาย นำโดยรุ่นพี่ ม.4 - ม.5 </p>
                 </div>
             </a>
 
-            <a href="mb_scc_j.html" class="menu-card group p-6 rounded-2xl hover:border-indigo-500/40 hover:-translate-y-1 shadow-xl hover:shadow-indigo-500/5 transition-all duration-300 flex flex-col justify-between items-start space-y-6 min-h-[160px]">
+            <a href="mb_scc_j.html" class="menu-card group p-6 rounded-2xl hover:border-indigo-500/40 hover:-translate-y-1 shadow-xl hover:shadow-indigo-500/5 transition-all duration-300 flex flex-col justify-between items-start space-y-6 min-h-[200px] w-full">
                 <div class="p-3 bg-indigo-500/10 text-indigo-400 rounded-xl group-hover:bg-indigo-500 group-hover:text-slate-950 transition-all duration-300">
                     <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
                     </svg>
                 </div>
                 <div>
-                    <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-indigo-400 transition-colors leading-tight">มัธยมศึกษาตอนต้น</h3>
-                    <p class="text-xs text-slate-400 mt-1.5">คณะกรรมการสภานักเรียน ชั้นมัธยมศึกษาตอนต้น</p>
+                    <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-indigo-400 transition-colors leading-tight">คณะกรรมการสภานักเรียน ชั้นมัธยมศึกษาตอนต้น</h3>
+                    <p class="text-xs text-slate-400 mt-2 leading-relaxed">ทำความรู้จักกับน้องๆ คณะกรรมการสภานักเรียน ชั้นมัธยมศึกษาตอนต้น นำโดยรุ่นน้อง ม.2 - ม.3 </p>
                 </div>
             </a>
 
